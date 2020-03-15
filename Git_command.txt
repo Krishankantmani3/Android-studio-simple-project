@@ -1,0 +1,8 @@
+# command to add origin 
+-> git remote add origin "link_name"
+
+#cmd to pull origin 
+-> git pull origin master
+
+#cmd to add index 
+-> git add file_name.ext
