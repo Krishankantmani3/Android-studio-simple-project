@@ -1,3 +1,6 @@
+Note: ignore  ->(It is not part of command) 
+
+
 # command to add origin 
 -> git remote add origin "link_name"
 
@@ -6,3 +9,11 @@
 
 #cmd to add index 
 -> git add file_name.ext
+#1cmd to add multiple file
+-> git add -A
+
+# cmd to check status 
+-> git status
+
+#cmd to commit changes
+->git commit -m "adding first commit in local repo"
