@@ -16,4 +16,26 @@ Note: ignore  ->(It is not part of command)
 -> git status
 
 #cmd to commit changes
-->git commit -m "adding first commit in local repo"
+->git commit -m "comment"
+#1 for multiple file 
+-> git commit -a -m "comment"
+
+# cmd to see log
+-> git log
+
+# cmd to add branch
+-> git branch branchname
+
+# cmd to switch branch 
+-> git checkout branchname
+
+# cmd to merge branch 
+-> git merge branchname
+
+# rebase
+
+#pushing command 
+# 1) key generation 
+-> ssh-keygen
+->ssh -T git@github.com
+-> git push origin branchname
